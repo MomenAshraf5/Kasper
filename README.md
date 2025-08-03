@@ -63,7 +63,7 @@ Template 2/
 │ └── fa-solid-900.woff2
 │ └── fa-v4compatibility.ttf
 │ └── fa-v4compatibility.woff2
-└── main.html
+└── index.html
 ```
 
 ---
