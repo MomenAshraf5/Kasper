@@ -207,14 +207,12 @@ header nav .form i {
 /* Start Landing Page */
 .landing {
   min-height: 100vh;
-  background-image: url("../Images/landing7.jpg");
   background-image: url("../Images/landing7.webp");
   background-size: cover;
   transition: background-image 0.5s ease-in-out;
   position: relative;
 }
 .landing:hover {
-  background-image: url("../Images/landing6.jpg");
   background-image: url("../Images/landing6.webp");
 }
 .landing .overlay {
@@ -345,7 +343,6 @@ header nav .form i {
   padding-bottom: var(--section-padding);
   height: 600px;
   position: relative;
-  background-image: url("../Images/landing4.jpg");
   background-image: url("../Images/landing4.webp");
   background-size: cover;
   display: flex;
@@ -630,7 +627,6 @@ header nav .form i {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   text-align: center;
-  background-image: url(../Images/landing4.jpg);
   background-image: url(../Images/landing4.webp);
   background-size: cover;
   position: relative;
@@ -882,7 +878,6 @@ header nav .form i {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   text-align: center;
-  background-image: url(../Images/landing4.jpg);
   background-image: url(../Images/landing4.webp);
   background-size: cover;
   position: relative;
@@ -1094,7 +1089,6 @@ header nav .form i {
 .subscribe {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(../Images/landing4.jpg);
   background-image: url(../Images/landing4.webp);
   background-size: cover;
   position: relative;
@@ -1298,7 +1292,6 @@ header nav .form i {
 .footer {
   padding-top: calc(var(--section-padding) / 2);
   padding-bottom: calc(var(--section-padding) / 2);
-  background-image: url(../Images/footer3.jpg);
   background-image: url(../Images/footer3.webp);
   background-size: cover;
   position: relative;
