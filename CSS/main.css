@@ -336,7 +336,7 @@ header nav .form i {
 }
 .services .ser-box p {
   line-height: 2;
-  color: #777;
+  color: #595959;
 }
 /* End Services */
 /* Start DesignPage */
@@ -477,6 +477,11 @@ header nav .form i {
   width: 100%;
   transition: 0.3s;
   bottom: -100%;
+}
+.portfolio .portfolio-container .port-box .caption h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 .portfolio .portfolio-container .port-box .caption h4 {
   font-weight: bold;
@@ -747,7 +752,7 @@ header nav .form i {
   margin-bottom: 30px;
 }
 .skills .container .content .monials p {
-  color: #777;
+  color: #595959;
   margin: 0 auto 30px;
   max-width: 100%;
   line-height: 2;
@@ -779,7 +784,7 @@ header nav .form i {
 }
 .skills .container .content .monials-img .name {
   text-align: right;
-  color: #777;
+  color: #595959;
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -1007,7 +1012,7 @@ header nav .form i {
 .pricing .plan .foot a {
   display: inline-block;
   background-color: var(--primary-color);
-  color: white;
+  color: #272729;
   padding: 10px 25px;
   text-decoration: none;
   border-radius: 4px;
@@ -1018,29 +1023,29 @@ header nav .form i {
   filter: brightness(0.9);
 }
 .plan.basic .head {
-  background-color: #888;
-  color: white;
+  background-color: #b2b2ad;
+  color: #272729;
 }
 .plan.premium .head {
   background-color: #20c997;
-  color: white;
+  color: #272729;
 }
 .plan.pro .head {
-  background-color: #6610f2;
-  color: white;
+  background-color: #c3a3f4;
+  color: #272729;
 }
 .plan.platinum .head {
   background-color: #ffc107;
   color: black;
 }
 .plan.basic .foot a {
-  background-color: #888;
+  background-color: #b2b2ad;
 }
 .plan.premium .foot a {
   background-color: #20c997;
 }
 .plan.pro .foot a {
-  background-color: #6610f2;
+  background-color: #c3a3f4;
 }
 .plan.platinum .foot a {
   background-color: #ffc107;
@@ -1278,14 +1283,14 @@ header nav .form i {
 }
 .contact .content .info .phone {
   display: block;
-  color: #777;
+  color: #595959;
   margin-bottom: 10px;
 }
 .contact .content .info h4:nth-of-type(2) {
   margin-top: 85px;
 }
 .contact .content .info address {
-  color: #777;
+  color: #595959;
   line-height: 1.5;
 }
 /* End Contact Section */
