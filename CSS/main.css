@@ -17,14 +17,27 @@
 html {
   scroll-behavior: smooth;
 }
-
-.open-sans- body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+/* Local Open Sans */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../webfonts/Open_Sans/static/OpenSans-Regular.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../webfonts/Open_Sans/static/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 ul {
   list-style: none;
 }
