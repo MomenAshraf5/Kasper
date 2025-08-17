@@ -208,12 +208,14 @@ header nav .form i {
 .landing {
   min-height: 100vh;
   background-image: url("../Images/landing7.jpg");
+  background-image: url("../Images/landing7.webp");
   background-size: cover;
   transition: background-image 0.5s ease-in-out;
   position: relative;
 }
 .landing:hover {
   background-image: url("../Images/landing6.jpg");
+  background-image: url("../Images/landing6.webp");
 }
 .landing .overlay {
   position: absolute;
@@ -344,6 +346,7 @@ header nav .form i {
   height: 600px;
   position: relative;
   background-image: url("../Images/landing4.jpg");
+  background-image: url("../Images/landing4.webp");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -623,6 +626,7 @@ header nav .form i {
   padding-bottom: var(--section-padding);
   text-align: center;
   background-image: url(../Images/landing4.jpg);
+  background-image: url(../Images/landing4.webp);
   background-size: cover;
   position: relative;
 }
@@ -874,6 +878,7 @@ header nav .form i {
   padding-bottom: var(--section-padding);
   text-align: center;
   background-image: url(../Images/landing4.jpg);
+  background-image: url(../Images/landing4.webp);
   background-size: cover;
   position: relative;
   color: white;
@@ -929,77 +934,6 @@ header nav .form i {
   flex-direction: column;
   text-align: center;
 }
-/* .pricing .container .plans {
-  display: flex;
-  width: 100%;
-  margin-bottom: 70px;
-  gap: 30px;
-}
-@media (max-width: 767px) {
-  .pricing .container .plans {
-    flex-direction: column;
-    margin-bottom: 0;
-    padding: 0 30px 50px 30px;
-  }
-}
-.pricing .container .plans .plan {
-  flex-basis: 25%;
-  background-color: #fcfcfc;
-}
-.pricing .container .plans .plan .head {
-  padding: 25px 0;
-  border-top: 1px solid var(--primary-color);
-  border-bottom: 1px solid var(--primary-color);
-}
-.pricing .container .plans .plan .head h3 {
-  font-weight: normal;
-  margin-bottom: 20px;
-}
-.pricing .container .plans .plan .head p {
-  font-size: 60px;
-  font-weight: bold;
-}
-.pricing .container .plans .plan .head p::before {
-  content: "$";
-  font-size: 20px;
-  position: relative;
-  top: -40px;
-  margin-right: 15px;
-  font-weight: normal;
-}
-.pricing .container .plans .plan .head p::after {
-  content: "/MO";
-  font-size: 14px;
-  position: relative;
-  right: -15px;
-  font-weight: normal;
-}
-.pricing .container .plans .plan ul {
-  border-bottom: 1px solid var(--primary-color);
-}
-.pricing .container .plans .plan ul li {
-  padding: 20px 0;
-  position: relative;
-}
-.pricing .container .plans .plan ul li:not(:last-child)::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  background-color: var(--primary-color);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
-}
-.pricing .container .plans .plan .foot a {
-  display: block;
-  text-decoration: none;
-  padding: 10px 30px;
-  border: 1px solid var(--primary-color);
-  width: fit-content;
-  margin: 30px auto;
-  color: black;
-} */
 .pricing .plans {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1156,6 +1090,7 @@ header nav .form i {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   background-image: url(../Images/landing4.jpg);
+  background-image: url(../Images/landing4.webp);
   background-size: cover;
   position: relative;
   color: white;
@@ -1359,6 +1294,7 @@ header nav .form i {
   padding-top: calc(var(--section-padding) / 2);
   padding-bottom: calc(var(--section-padding) / 2);
   background-image: url(../Images/footer3.jpg);
+  background-image: url(../Images/footer3.webp);
   background-size: cover;
   position: relative;
   color: white;
