@@ -1,6 +1,6 @@
 /* start variables */
 :root {
-  --primary-color: #4db8ff;
+  --primary-color: #005c9a;
   --transparent-color: rgb(33 119 146 /50%);
   --font-color: #dad6d7;
   --section-padding: 100px;
@@ -86,7 +86,7 @@ ul {
   border: 2px solid #333;
 }
 .main-heading p {
-  color: #777;
+  color: #595959;
   margin: 0 auto 100px;
   width: 550px;
   max-width: 100%;
